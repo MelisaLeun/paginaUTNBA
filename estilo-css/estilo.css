@@ -1,36 +1,45 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;}
 
-body{background-color: rgb(241, 237, 230);}
+/*
+    .cuerpo { background-image:url(../imagenes-isa/portada.jpg); 
+        background-size: cover;
+        height:500px;
+        background-repeat: no-repeat;
+        background-position: center top; */
+
+
+
 
     #titulo {
-        font-size:smaller;
+        font-size:medium;
         font-style: italic;
-        color: rgba(128, 74, 74, 0.863);
-        font-family: 'Nunito', sans-serif;}
+        color: rgba(185, 158, 158, 0.863);
+        font-family: 'bad script' sans-serif;
+        text-shadow: 1px 1px 2px;
+}
 
         /*al titulo lo cambie de "class" a "id"*/
 
     .contenedora {
         display: flex;
-        justify-content: center;}
+        justify-content: center;
+        transform: scale(1.1);}
 
     .img {
         width: 250px;
         height: 400px;
-        margin: 0 5px; }
+        margin: 0 1.5px; 
+        }
 
         .header{
-            background-color: rgb(180, 180, 180);
+            font-family: 'roboto';
+            font-style: italic;
+            font-weight: bold;
+            background-color: rgb(194, 166, 166);
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 85px;
-            padding: 5px 10%;}
+            padding: 5px 5%;}
 
             .header .logo{
                     cursor: pointer;}
@@ -48,32 +57,54 @@ body{background-color: rgb(241, 237, 230);}
 
             .header .nav-links li{
                     display: inline-block;
-                    padding: 0 20px;}
+                    padding: 20px;}
 
             .header .nav-links li:hover{
                     transform: scale(1.1);}
 
             .header .nav-links a{
                     font-size: 700;
-                    color:dimgrey;
+                    color:rgb(105, 102, 102);
                     text-decoration: none;}
 
-            .header .nav-links li a:hover{
-                    color:black;}
+                a:link {
+                        color:rgba(185, 158, 158, 0.863); 
+                        font-family: 'roboto';
+                        text-decoration:none;
+                        font-weight: bolder;}
+                a:hover {
+                        color: black;
+                        font-family: 'roboto';}
+                
+                #encabezado { position: sticky;
+                        left: 20px;
+                        top: 5px;
+                        z-index: 1;}
+
+                        .texto {
+                         font-family: 'nunito';
+                         text-align:center;
+                         color: rgb(59, 59, 59);
+                         text-decoration: none;
+
+                        }
 
 
-            .header .btn button:hover{
-                    background-color: #e2f1f8;
-                    color: #f5a3d5;
-                    transform: scale(1.1);}
 
-
-
-
-
-
-
-
+                       .span {
+                           color:black; 
+                           font-style: italic;
+                           font-weight: bolder;
+                        } 
+                        
+                        .especial {background-image:url(../imagenes-isa/portada.jpg); 
+                                background-size:cover;
+                                height:1000px;
+                                width: 1500px;
+                                background-repeat: no-repeat;
+                                background-position: center top; 
+                                
+                        }
 
 
 
